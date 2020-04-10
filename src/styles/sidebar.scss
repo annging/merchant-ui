@@ -19,6 +19,7 @@
     left: 0;
     z-index: 1001;
     overflow: hidden;
+    border-right: 1px solid #cbd5e0;
 
     // reset element-ui css
     .horizontal-collapse-transition {
@@ -72,7 +73,10 @@
     }
 
     .is-active>.el-submenu__title {
-      color: $subMenuActiveText !important;
+      color: $menuText !important;
+    }
+    .el-submenu .el-menu-item {
+      padding-left: 50px !important;
     }
 
     & .nest-menu .el-submenu>.el-submenu__title,

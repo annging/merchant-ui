@@ -24,8 +24,8 @@ export default {
   },
   data() {
     return {
-      title: 'Vue Admin Template',
-      logo: 'https://wpimg.wallstcn.com/69a1c46c-eb1c-4b46-8bd4-e9e686ef5251.png'
+      title: '',
+      logo: '/images/logo.png'
     }
   }
 }
@@ -44,19 +44,19 @@ export default {
 .sidebar-logo-container {
   position: relative;
   width: 100%;
-  height: 50px;
+  height: 70px;
   line-height: 50px;
-  background: #2b2f3a;
-  text-align: center;
+  background: #f2f2f2;
   overflow: hidden;
+  padding: 15px 15px 5px 15px;
 
   & .sidebar-logo-link {
     height: 100%;
     width: 100%;
 
     & .sidebar-logo {
-      width: 32px;
-      height: 32px;
+      width: auto;
+      height: 50px;
       vertical-align: middle;
       margin-right: 12px;
     }
